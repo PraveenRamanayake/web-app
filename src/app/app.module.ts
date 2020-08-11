@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
 import { MaterialModule } from './material/material.module';
 
 import { AdalService, AdalGuard, AdalInterceptor } from 'adal-angular4';
