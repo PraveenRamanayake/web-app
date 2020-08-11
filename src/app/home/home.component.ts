@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   }
 
   getUserInfo() {
-    return this.http.get('https://praveenapi1.azurewebsites.net/users');
+    return this.http.get('https://praveenfrontdoor.azurefd.net/users');
   }
   public getProfile() {
     console.log('Get Profile called');

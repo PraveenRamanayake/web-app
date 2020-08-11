@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class HomeService {
-  SERVER_URL  = 'https://praveenapi1.azurewebsites.net/file/upload';
+  SERVER_URL  = 'https://praveenfrontdoor.azurefd.net/file/upload';
   constructor(private httpClient: HttpClient) { }
   public upload(formData) {
 
